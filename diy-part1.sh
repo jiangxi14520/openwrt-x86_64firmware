@@ -15,4 +15,4 @@
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git install-program https://github.com/tuanqing/install-program' >>feeds.conf.default
+git clone https://github.com/tuanqing/install-program package/install-program
