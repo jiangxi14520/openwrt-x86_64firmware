@@ -16,3 +16,5 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 git clone https://github.com/tuanqing/install-program package/install-program
+export GO111MODULE=on
+export GOPROXY=https://goproxy.io
