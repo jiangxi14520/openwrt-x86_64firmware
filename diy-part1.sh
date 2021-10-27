@@ -17,5 +17,3 @@
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 git clone https://github.com/tuanqing/install-program package/install-program
 git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
-export GO111MODULE=on
-export GOPROXY=https://goproxy.io
